@@ -1,4 +1,7 @@
 # HabitHints
+
+Fait par/Done by: Abi-Khalil, Lucas; Cubahiro, Aubélin; Hassan, Ahmed; Irera, Mercy; Li, Thomas; Normand, Joel
+
 Projet d'Application Basée sur Atomic Habits de James Clear
 
 Cette application s'inspire du livre Atomic Habits de James Clear, qui explique comment de petites actions quotidiennes peuvent avoir un impact durable sur la vie. 
