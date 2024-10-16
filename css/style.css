@@ -1,0 +1,30 @@
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: end;
+}
+
+ul img {
+  height: 175px;
+}
+
+li a {
+  display: block;
+  color: #262353;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:first-child {
+  margin-inline-end: auto;
+}
+
+#active {
+  background-color: black;
+  color: white;
+}
