@@ -1,4 +1,4 @@
-ul {
+ul:not([data-type]) {
   display: flex;
   list-style-type: none;
   margin: 0;
@@ -8,11 +8,11 @@ ul {
   justify-content: end;
 }
 
-ul img {
+ul img:not([data-type]) {
   height: 175px;
 }
 
-li a {
+li a:not([data-type]) {
   display: block;
   color: #262353;
   text-align: center;
@@ -20,7 +20,7 @@ li a {
   text-decoration: none;
 }
 
-li:first-child {
+li:first-child:not([data-type]) {
   margin-inline-end: auto;
 }
 
