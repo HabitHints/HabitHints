@@ -28,3 +28,8 @@ li:first-child {
   background-color: black;
   color: white;
 }
+.btn {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+}
