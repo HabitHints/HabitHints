@@ -1,0 +1,94 @@
+﻿[HabitHints] Style Guidelines
+1. Introduction
+* HabitHints is an app is based off the belief that habits are what build good 
+* Purpose of the style guide:
+________________
+
+
+2. Brand Voice & Tone
+Voice
+* Description of the brand's personality.
+   * "Friendly, professional, conversational, motivational."
+Tone
+* Formal, casual, informative.
+   * "Friendly and approachable tone for customer service. Motivational and helpful for quotes and tips. Authoritative for technical content."
+________________
+
+
+3. Logo Usage
+Primary Logo
+* Logo can be used with any colour.
+* Minimum size requirements: Minimum (5cm)
+* Placement rules: Top left of the page
+Alternate Logos
+* Guidelines for using alternate logos (e.g., black-and-white versions, horizontal/vertical versions).
+Unacceptable Logo Treatments
+* Distortion
+* Placement on busy backgrounds
+________________
+
+
+4. Colour Palette
+Primary Colours
+* Define the primary brand colours (hex codes).
+   * #FFFFFF (White).
+   * #FCF3DD (Off-White).
+   * #EF601E (Orange).
+   * #D6E7F7 (Baby blue).
+   * #CB962E (Yellow).
+   * #CAAACD (Light pink).
+   * #775454 (Brown).
+   * #373d3b (Dark grey).
+   * #000000 (Black).
+Usage Guidelines
+* Colours are to be used as background, text colouring, logo colours, buttons and features.
+________________
+
+
+5. Typography
+Primary Typeface
+* Canva Sans, Bold, 20px: used for buttons
+* League Spartan, 37.5px: used for main page heading
+* Marcellus, 18.4px: used for contact us page
+* TT Hoves, 14px: used for body text
+Font Usage
+* Hierarchy between texts (Titles are bigger px, body text is smaller).
+* Headings in Bold, Body in Regular.
+________________
+
+
+6. Imagery and Iconography
+Photography Style
+* Natural lighting.
+* Calm shots.
+* Motivational images.
+Image Usage
+* No pixelated images, appropriate cropping and placement
+________________
+
+
+7. Writing Style Guide
+Grammar and Punctuation
+* Oxford comma usage.
+* Proper grammar for body texts.
+Preferred Spelling
+* British english.
+Content Length
+* Quotes: 1-2 sentences.
+* Descriptions: 1-2 paragraphs.
+* About: 1 paragraph.
+________________
+
+
+8. Digital Guidelines
+Web Design
+* Consistency in website elements ( button styles, navigation bar, etc).
+________________
+
+
+9. Document Layout and Templates
+Document Types
+* Types of documents: presentations, proposals must follow the same style as the website.
+Template Styles
+* Approved templates for different types of documents :PowerPoint slides, Canva slides, Google slides.
+________________
