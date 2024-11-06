@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li img#habithintLogo {
+  height: 40px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header nav ul li a#active {
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* Dropdown menu */
+.overviewMenu {
+  position: relative;
+}
+
+.overviewMenu:hover ul.submenu {
+  display: block;
+}
+
+.overviewMenu img[data-type="special"] {
+  width: 10px;
+  margin-left: 5px;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+
+.overviewMenu:hover img[data-type="special"] {
+  transform: rotate(180deg);
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+ul.submenu li {
+  padding: 5px 15px;
+}
+
+ul.submenu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+ul.submenu li a:hover {
+  color: #ffd700;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+th h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+
+table img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+
+h3 {
+  font-family: 'Marcellus', serif;
+  font-size: 18.4px;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}
