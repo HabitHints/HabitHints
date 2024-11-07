@@ -54,3 +54,68 @@ main {
 #active {
   background-color: #cb962e;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  #textContainer {
+    width: 70%;
+  }
+
+  #textContainer h1 {
+    font-size: 3rem;
+  }
+
+  .logo {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #textContainer {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  #textContainer h1 {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    width: 20rem;
+  }
+
+  .btnContainer {
+    height: 4rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #textContainer h1 {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .btnContainer {
+    height: 3rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav ul li {
+    margin: 0.5rem 0;
+  }
+}

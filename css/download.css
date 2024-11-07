@@ -71,3 +71,87 @@ tbody td a {
 tbody td a:hover {
   background-color: #815f1c;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  table {
+    width: 90%;
+    max-width: none;
+  }
+
+  thead h1 {
+    font-size: 2.4rem;
+  }
+
+  thead h2 {
+    font-size: 1.2rem;
+  }
+
+  tbody td {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  tbody td a {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  tfoot img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  thead h1 {
+    font-size: 2rem;
+  }
+
+  thead h2 {
+    font-size: 1rem;
+  }
+
+  tbody td {
+    font-size: 0.85rem;
+  }
+
+  tbody td a {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  tfoot img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  thead h1 {
+    font-size: 1.8rem;
+  }
+
+  thead h2 {
+    font-size: 0.9rem;
+  }
+
+  tbody td {
+    font-size: 0.8rem;
+  }
+
+  tbody td a {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  tfoot img {
+    width: 100%;
+  }
+}
