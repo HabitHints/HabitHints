@@ -14,6 +14,7 @@ main {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  margin-left: 5%;
 }
 
 table {
@@ -34,6 +35,10 @@ th h1 {
 
 .purpleSquareImg {
   border-radius: 1.8rem;
+}
+
+#contactUs-img-container {
+  padding-left: 10%;
 }
 
 h2 {
