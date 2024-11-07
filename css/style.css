@@ -13,7 +13,7 @@ nav ul:not([data-type]) {
 }
 
 nav ul img:not([data-type]) {
-  height: 175px;
+  height: 12rem;
 }
 
 nav li a:not([data-type]) {
@@ -24,6 +24,7 @@ nav li a:not([data-type]) {
   text-decoration: none;
   border-radius: 0.5rem;
   margin-right: 0.2rem;
+  font-size: large;
 }
 
 nav li:first-child:not([data-type]) {

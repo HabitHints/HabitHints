@@ -1,3 +1,5 @@
+/*General display*/
+
 .container-about {
   padding-top: 2%;
   padding-bottom: 8%;
@@ -49,10 +51,30 @@ nav {
   background-color: #cb962e;
 }
 
+/*Overview Section*/
+
+#overview-right-content {
+  margin-left: 35%;
+}
+
 #overview-title {
   color: white;
 }
 
 .overview-text {
   color: white;
+  font-size: x-large;
+}
+/*Features section*/
+
+.features-text {
+  font-size: x-large;
+}
+
+.features-text ul li {
+  margin-bottom: 0.5rem;
+}
+
+#img-features {
+  margin-top: 25%;
 }
