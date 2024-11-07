@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #d6e7f7;
 }
 
 main {
@@ -29,19 +29,15 @@ td {
 }
 
 th h1 {
-  font-size: 24px;
   color: #333;
 }
 
-table img {
-  width: 100px;
-  height: 100px;
-  border-radius: 8px;
+.purpleSquareImg {
+  border-radius: 1.8rem;
 }
 
-h3 {
+h2 {
   font-family: "Marcellus", serif;
-  font-size: 18.4px;
   color: #333;
   margin-bottom: 0.5rem;
 }
@@ -49,4 +45,12 @@ h3 {
 p {
   color: #666;
   line-height: 1.5;
+}
+
+#active {
+  background-color: #caaacd;
+}
+
+footer {
+  background-color: #d6e7f7;
 }
