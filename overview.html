@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/overview.css" />
+    <script src="js/main.js"></script>
   </head>
   <body>
     <header>
@@ -140,26 +141,66 @@
         </div>
       </div>
       <!--customer review part of the page-->
-      <table>
-        <thead>
-          <tr>
-            <th colspan="2"><h1 id="customerReviews">CUSTOMER REVIEWS</h1></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <img src="img/NEED-IMAGE.jpg" alt="Need-Image" />
-            </td>
-            <td>
-              <p>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Aenean<br />lorem
-                condimentum proin ligula convallis
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <h1 id="customerReviews">CUSTOMER REVIEWS</h1>
+      <div class="review-container">
+        <div class="review">
+          <div class="review-badge">⭐ Best Review</div>
+          <div class="review-content">
+            <h3>Alex Johnson</h3>
+            <div class="star-rating">⭐⭐⭐⭐⭐</div>
+            <p>
+              "Habit Hints has truly transformed my morning routine! I’m able to
+              wake up earlier and stay productive throughout the day. Highly
+              recommend it!"
+            </p>
+            <button class="like-btn" onclick="likeReview(1)">
+              👍 <span id="like-count-1">23</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="review-content">
+            <h3>Emily Clark</h3>
+            <div class="star-rating">⭐⭐⭐⭐</div>
+            <p>
+              "I finally kicked my sugar addiction, thanks to Habit Hints! The
+              daily habit reminders are so helpful."
+            </p>
+            <button class="like-btn" onclick="likeReview(2)">
+              👍 <span id="like-count-2">15</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="review-content">
+            <h3>Michael Thompson</h3>
+            <div class="star-rating">⭐⭐⭐⭐⭐</div>
+            <p>
+              "Building new habits has always been hard for me, but this
+              platform made it fun and manageable. I'm seeing real changes!"
+            </p>
+            <button class="like-btn" onclick="likeReview(3)">
+              👍 <span id="like-count-3">18</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="review-content">
+            <h3>Sarah Lee</h3>
+            <div class="star-rating">⭐⭐⭐</div>
+            <p>
+              "I now read every day, something I never thought I could do. Habit
+              Hints provides the structure I needed!"
+            </p>
+            <button class="like-btn" onclick="likeReview(4)">
+              👍 <span id="like-count-4">34</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <p>&copy;HabitHints - 2024 - All rights reserved</p>
